@@ -1,10 +1,10 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const galaryList = document.querySelector('.gallery__list');
+  const galleryList = document.querySelector('.gallery__list');
   const largeImg = document.getElementById('largeImg');
 
-  galaryList.addEventListener('click', (e) => {
+  galleryList.addEventListener('click', (e) => {
     const link = e.target.closest('a');
 
     if (!link) {
